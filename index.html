@@ -12,21 +12,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./tailwind-css 3.3.1"></script>
 
-  <style type="text/tailwindcss">
-    @layer utilities {
-      .content-auto {
-        content-visibility: auto;
-      }
-    }
-  </style>
-
 </head>
 
 <body class="text-white">
-
-  <!-- <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1> -->
 
   <div class="container min-h-screen bg-[url('./images/image.png')] bg-center bg-cover px-28 py-5 relative">
     <nav class="flex items-center">
@@ -43,19 +31,22 @@
     <div class="mt-44 max-w-xl">
       <!-- mt-48 -->
       <h1 class="text-6xl font-semibold leading-normal">
-        Groceries <br>delivery in <span class="font-light">15 mins</span>
+        Groceries <br>delivery in <span class="font-normal">15 mins</span>
       </h1>
 
-      <p>Grocify offers a wide range of products, including fresh products, meat, dairy, baked goods and non-perishable
+      <p><span class="text-yellow-300">Grocify</span> offers a wide range of products, including fresh products, meat,
+        dairy, baked goods and
+        non-perishable
         items.</p>
 
       <div class="mt-10">
         <a href="#"
           class="text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border-2 border-2 border-transparent">
-          Order Now
+          Order Now!
           <!-- hover:bg-sky-700 -->
         </a>
-        <a href="#">
+        <a href="#"
+          class="text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border-2 border-2 border-transparent">
           Download App <span class="text-lg inline-block rotate-90">&#10148;</span>
         </a>
       </div>
@@ -68,3 +59,11 @@
 </body>
 
 </html>
+
+<!-- <style type="text/tailwindcss">
+  @layer utilities {
+    .content-auto {
+      content-visibility: auto;
+    }
+  }
+</style> -->
